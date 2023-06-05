@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin: 0 10px;
+    font-size: 60px;
+    font-family: 'Montserrat';
+    font-weight: 1000;
+    cursor: cell;
+}
+
+p:hover{
+    color: white;
+
+    text-shadow:
+    0 0 10px white, 
+    0 0 20px white, 
+    0 0 30px white, 
+    0 0 40px white
+    ;
+}
+
+@media screen and (max-width: 425px){
+    .caja{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

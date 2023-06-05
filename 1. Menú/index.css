@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.header{
+    background-color: rgb(24, 22, 27);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-family: 'Montserrat';
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    color: azure;
+    margin: 0;
+    padding-right: 2px;
+}
+
+.titulo{
+    color: white;
+    font-size: 25px;
+}
+
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    margin-bottom: 15px;
+    margin: 0;
+}
+
+.items{
+    list-style: none;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px){
+    .header{
+        background-color: rgb(24, 22, 27);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        font-family: 'Montserrat';
+        flex-direction: column;
+        align-items: center;
+    }
+}
